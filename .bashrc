@@ -62,7 +62,7 @@ function grao() {
 
 function @(){
 	local dir
-	for depth in {1..4}; do
+	for depth in {1..3}; do
 		dir=$(find . -maxdepth $depth -type d -name "*$1*" | head -n 1)
 		if [[ -n $dir ]]; then
 			echo "switching to: $dir"
