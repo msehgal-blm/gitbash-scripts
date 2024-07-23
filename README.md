@@ -7,4 +7,4 @@ Main feature is the "@" function which allows quick navigation by attempting to 
 Additionally, each function acts as a "cd" allowing input afterwards.
 
 ### Examples
-Using "@": `workspace @ project` - this will navigate to /c/tmp/workspace and then to the first directory whose name contains "project"\
+Using "@": `workspace @ project` - this will navigate to /c/tmp/workspace and then to the first directory whose name contains "project".
